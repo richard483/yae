@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Yae Miko" src="./assets/103255278_p0.jpg">
+  <WelcomePage msg="Welcome, dear Yae worshiper!"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WelcomePage from './components/WelcomePage.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    WelcomePage
+}
 }
 </script>
 
@@ -21,6 +21,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 2rem;
+}
+
+img {
+  height: 32rem;
 }
 </style>
